@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #181818;
+}
+
+@font-face {
+  font-family: rubik;
+  src: url(fonts/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: salt;
+  src: url(fonts/Salt.ttf);
+}
+
+body {
+  background-color: #f8f0fc;
+  margin: 10px 20px;
+  font-family: rubik;
+}
+
+article,
+aside,
+footer {
+  margin: 30px 40px;
+}
+/* Main header */
+
+.main-header {
+  padding: 20px;
+  margin: auto;
+  background-color: #f3d9fa70;
+  border: #f3d9fa 3px solid;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: salt;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.main_nav a:link,
+.main_nav a:visited {
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.main_nav a:hover,
+.main_nav a:active {
+  color: #495057;
+}
+
+h2 {
+  font-size: 44px;
+  margin-bottom: 15px;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+/* RELATED ARTICLES */
+
+.related_nav a:link,
+.related_nav a:visited {
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.related_nav a:hover,
+.related_nav a:active {
+  color: #495057;
+}
+
+aside {
+  background-color: #f3d9fa8b;
+  padding: 10px;
+  border: #f3d9fa 3px solid;
+  position: relative;
+}
+
+/* FOOTER  */
+button {
+  position: absolute;
+  padding: 10px;
+  background-color: #efcbf9;
+  border: #e3bbee 2px solid;
+  bottom: 15px;
+  right: 15px;
+}
+
+button::after {
+  content: "He loves you💘";
+}
+
+button:hover::after {
+  content: "Do you love him?";
+  cursor: pointer;
+}

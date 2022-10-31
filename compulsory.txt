@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kanumol | Anniversary</title>
+    <link href="index_ss.css" rel="stylesheet" />
+  </head>
+</html>
+
+<body>
+  <header class="main-header">
+    <h1>
+      <ion-icon name="heart-circle-outline"></ion-icon>Kanumol<ion-icon
+        name="heart-circle-outline"
+      ></ion-icon>
+    </h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Friendship</a>
+      <a href="#">Dating</a>
+      <a href="#">Dates</a>
+      <a href="#">Her</a>
+      <a href="#">Gallery</a>
+      <a href="#">About us</a>
+    </nav>
+  </header>
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+</body>
+
+<aside>
+    <h3>Related</h3>
+    <p>
+      <a href="index.html" >Home</a>
+      <a href="friendship.html" >Friendship</a>
+      <a href="#" >Dating</a>
+      <a href="#" >Dates</a>
+      <a href="#" >Her</a>
+      <a href="#" >Gallery</a>
+      <a href="#" >About us</a>
+      <a href="#" >For her</a>
+      <a href="#" >Songs dedicated to her</a>
+      <a href="#" >Movies to watch together</a>
+    </p>
+
+   <footer><button>He loves you 💘</button></footer>
+  </aside>
+
+
+
