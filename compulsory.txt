@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Kanumol | Anniversary</title>
+    <title>Kanumol | Dating</title>
     <link href="index_ss.css" rel="stylesheet" />
   </head>
 </html>
@@ -14,10 +14,10 @@
         name="heart-circle-outline"
       ></ion-icon>
     </h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Friendship</a>
-      <a href="#">Dating</a>
+    <nav class="main_nav">
+      <a href="index.html">Home</a>
+      <a href="friendship.html">Friendship</a>
+      <a href="dating.html">Dating</a>
       <a href="#">Dates</a>
       <a href="#">Her</a>
       <a href="#">Gallery</a>
@@ -33,25 +33,24 @@
     nomodule
     src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
   ></script>
-</body>
 
-<aside>
+  <article></article>
+
+  <aside>
     <h3>Related</h3>
-    <p>
-      <a href="index.html" >Home</a>
-      <a href="friendship.html" >Friendship</a>
-      <a href="#" >Dating</a>
-      <a href="#" >Dates</a>
-      <a href="#" >Her</a>
-      <a href="#" >Gallery</a>
-      <a href="#" >About us</a>
-      <a href="#" >For her</a>
-      <a href="#" >Songs dedicated to her</a>
-      <a href="#" >Movies to watch together</a>
-    </p>
-
-   <footer><button>He loves you 💘</button></footer>
+    <nav class="related_nav">
+      <a href="index.html">Home</a>
+      <a href="friendship.html">Friendship</a>
+      <a href="#">Dating</a>
+      <a href="#">Dates</a>
+      <a href="#">Her</a>
+      <a href="#">Gallery</a>
+      <a href="#">For her</a>
+      <a href="#">Songs dedicated to her</a>
+      <a href="#">Movies to watch together</a>
+      <a href="past_writings.html">Past Writings</a>
+      <a href="#">About us</a>
+    </nav>
+    <button></button>
   </aside>
-
-
-
+</body>

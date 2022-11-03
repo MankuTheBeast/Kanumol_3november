@@ -119,44 +119,21 @@ button:hover::after {
   -webkit-text-stroke: 0.5px #000000;
 }
 
-.reply_all {
-  margin: 0px;
-  float: left;
-  cursor: pointer;
-}
-
-.note_img {
-  position: absolute;
-  top: 30px;
-  right: 50px;
-}
-
-.reply_all_span {
-  background: #efcbf9;
-  border: 2px solid #d576ef;
-  color: #000;
-  font-size: 13px;
-  height: 80px;
-  width: 200px;
-  letter-spacing: 1px;
-  line-height: 20px;
-  position: absolute;
-  text-align: center;
-  top: 30px;
-  right: 150px;
-  display: none;
-}
-
-.reply_all:hover span {
+.texting {
   display: block;
-  z-index: 9;
+  margin: 20px auto;
 }
 
-.hover {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 30px;
-  margin-top: 30px;
+.birthday_wish {
+  font-weight: 600;
+  margin: 20px 10px;
+  text-align: justify;
+  border: 2px dotted #d576ef;
+  padding: 3px;
+}
+
+.proposal {
   text-align: center;
-  display: block;
+  margin: 0 auto;
+  font-weight: 600;
 }
